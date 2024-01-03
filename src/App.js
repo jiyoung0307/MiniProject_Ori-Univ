@@ -45,9 +45,6 @@ import Cosmetology from "./major_cosmetology/Cosmetology";
 import QuickUnderGraduate from "./main/QuickUnderGraduate";
 import DessertAndBaking from "./major_dessertNbaking/DessertAndBaking";
 
-
-
-
 // index.js에 의해서 App이 불러와짐
 // 여기에는 기본특만 놔두시면 됩니다.(메인은 Home에 모아져 있음)
 function App () {
