@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MiniProject_Ori-Univ/static/css/main.2c29c186.css",
+    "main.css": "/MiniProject_Ori-Univ/static/css/main.2a4f1bb0.css",
     "main.js": "/MiniProject_Ori-Univ/static/js/main.65f1ef64.js",
     "static/media/baking.png": "/MiniProject_Ori-Univ/static/media/baking.2a8db5a5ebccf91c57d2.png",
     "static/media/digital2.jpg": "/MiniProject_Ori-Univ/static/media/digital2.d1a4b09d9353ca69ed2e.jpg",
@@ -14,11 +14,11 @@
     "static/media/cia-icon.jpg": "/MiniProject_Ori-Univ/static/media/cia-icon.1d8348e7d6174dc591f6.jpg",
     "static/media/videoclass.png": "/MiniProject_Ori-Univ/static/media/videoclass.c7491bb5b0390fa51681.png",
     "index.html": "/MiniProject_Ori-Univ/index.html",
-    "main.2c29c186.css.map": "/MiniProject_Ori-Univ/static/css/main.2c29c186.css.map",
+    "main.2a4f1bb0.css.map": "/MiniProject_Ori-Univ/static/css/main.2a4f1bb0.css.map",
     "main.65f1ef64.js.map": "/MiniProject_Ori-Univ/static/js/main.65f1ef64.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c29c186.css",
+    "static/css/main.2a4f1bb0.css",
     "static/js/main.65f1ef64.js"
   ]
 }
