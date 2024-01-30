@@ -7,7 +7,7 @@ function PostList() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:3001/posts')
+    axios.get('https://pineapple-vast-lift.glitch.me/posts')
       .then(response => {
         setPosts(response.data);
       })

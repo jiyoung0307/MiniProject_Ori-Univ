@@ -5,7 +5,7 @@ function Enrollment() {
 
   // 데이터를 가져와서 courseList 상태에 저장
   useEffect(() => {
-    fetch('http://localhost:3001/courses')
+    fetch('https://pineapple-vast-lift.glitch.me/courses')
       .then((response) => response.json())
       .then((data) => {
         setCourseList(data);
