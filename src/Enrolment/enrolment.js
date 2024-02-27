@@ -34,7 +34,7 @@ function Enrollment() {
 
   const saveToServer = () => {
     // 사용자 아이디와 장바구니 목록을 서버에 저장하는 API 호출
-    fetch('http://localhost:3001/cart', {
+    fetch('https://loving-longhaired-nyala.glitch.me/cart', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
