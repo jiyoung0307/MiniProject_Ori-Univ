@@ -9,7 +9,7 @@ function PostEdit() {
 
   useEffect(() => {
     // JSON Server의 API 엔드포인트로부터 특정 게시글의 상세 정보를 가져옵니다.
-    axios.get(`https://pineapple-vast-lift.glitch.me/posts/${id}`)
+    axios.get(`https://loving-longhaired-nyala.glitch.me/posts/${id}`)
       .then(response => {
         setPost(response.data);
       })
@@ -20,7 +20,7 @@ function PostEdit() {
 
   const handleEdit = () => {
     // 게시글 수정 로직을 구현
-    axios.put(`https://pineapple-vast-lift.glitch.me/posts/${id}`, post)
+    axios.put(`https://loving-longhaired-nyala.glitch.me/posts/${id}`, post)
       .then(() => {
         navigate(`/posts/${id}`);
       })

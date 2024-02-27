@@ -8,7 +8,7 @@ function PostDetail() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get(`https://pineapple-vast-lift.glitch.me/posts/${id}`)
+    axios.get(`https://loving-longhaired-nyala.glitch.me/posts/${id}`)
       .then(response => {
         setPost(response.data);
       })
@@ -18,7 +18,7 @@ function PostDetail() {
   }, [id]);
 
   const handleDelete = () => {
-    axios.delete(`https://pineapple-vast-lift.glitch.me/posts/${id}`)
+    axios.delete(`https://loving-longhaired-nyala.glitch.me/posts/${id}`)
       .then(() => {
         navigate('/post');
       })

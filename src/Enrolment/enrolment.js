@@ -5,7 +5,7 @@ function Enrollment() {
 
   // 데이터를 가져와서 courseList 상태에 저장
   useEffect(() => {
-    fetch('https://pineapple-vast-lift.glitch.me/courses')
+    fetch('https://loving-longhaired-nyala.glitch.me/courses')
       .then((response) => response.json())
       .then((data) => {
         setCourseList(data);
@@ -34,7 +34,7 @@ function Enrollment() {
 
   const saveToServer = () => {
     // 사용자 아이디와 장바구니 목록을 서버에 저장하는 API 호출
-    fetch('https://pineapple-vast-lift.glitch.me/cart', {
+    fetch('https://loving-longhaired-nyala.glitch.me/cart', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
