@@ -8,7 +8,7 @@ function PostCreate() {
   const navigate = useNavigate();
 
   const handleCreate = () => {
-    axios.post('https://loving-longhaired-nyala.glitch.me', newPost)
+    axios.post('https://pineapple-vast-lift.glitch.me', newPost)
       .then(() => {
         navigate('/post');
       })

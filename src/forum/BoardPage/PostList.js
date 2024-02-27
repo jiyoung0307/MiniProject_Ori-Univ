@@ -7,7 +7,7 @@ function PostList() {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    axios.get('https://loving-longhaired-nyala.glitch.me/posts')
+    axios.get('https://pineapple-vast-lift.glitch.me/posts')
       .then(response => {
         setPosts(response.data);
       })
